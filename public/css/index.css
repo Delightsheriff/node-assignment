@@ -1,0 +1,130 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body {
+    font-family: monospace;
+}
+
+.container {
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+li {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+}
+
+header {
+    background-color: #9358f2;
+    padding: 1em 0;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 1em;
+}
+
+.logo h1 {
+    font-size: 2rem;
+}
+
+
+
+nav ul {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+nav ul li {
+    padding-left: 1em;
+    font-size: 1.8rem;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: blueviolet;
+}
+
+article {
+    background: url("../images/firstlanding.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 85vh;
+}
+
+.landing_text {
+    margin-top: 3em;
+    display: inline-block;
+}
+
+.landing_text p:first-child {
+    font-size: 20px;
+    background-color: #d72d2d;
+    color: white;
+    display: inline-block;
+    padding: 0 5px;
+}
+
+.landing_text p:nth-child(2) {
+    color: black;
+    font-size: 60px;
+    font-weight: bold;
+    line-height: 1.2;
+    margin: 15px 0;
+
+}
+
+.landing_text p:nth-child(3) {
+    font-size: 20px;
+    color: black;
+}
+
+.landing_text button {
+    background-color: #751fff;
+    color: white;
+    font-size: 17px;
+    border-radius: 1em;
+    border-style: none;
+    padding: .9em 3.5em;
+    margin: 2em 0;
+}
+
+.landing_text button:hover {
+    background-color: black;
+    cursor: pointer;
+}
+
+footer {
+    background: #751fff;
+}
+
+.text {
+    text-align: center;
+    font-size: 2rem;
+    color: #fff;
+}
